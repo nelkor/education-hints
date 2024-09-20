@@ -93,6 +93,7 @@ export default [
       globals: {
         ...globals.browser,
         ...globals.es2025,
+        ...globals.jest,
       },
     },
     plugins: {
